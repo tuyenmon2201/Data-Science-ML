@@ -36,7 +36,7 @@ This is a real-world NLP classification project to predict job categories from j
 - Evaluate performance using accuracy, confusion matrix, and classification report.
 
 ### 🔷 `datasets/`
-Contains datasets used by other projects:
+Datasets used across various projects.
 
 ## 🛠️ Installation Guide
 
