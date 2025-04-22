@@ -4,10 +4,39 @@ This repository contains a collection of projects related to Data Science and Ma
 
 ## 📁 Project Structure
 
-- `classification_model/`: Contains classification models using algorithms like KNN, Decision Tree, Random Forest, etc.
-- `regression_model/`: Includes linear and non-linear regression models.
-- `job_classification/`: A project for job classification using real-world data.
-- `datasets/`: Datasets used across various projects.
+### 🔷 `classification_model/`
+This folder contains notebooks demonstrating classification techniques on various datasets using popular algorithms:
+
+- **`KNN.ipynb`**: Apply K-Nearest Neighbors algorithm with hyperparameter tuning using cross-validation.
+- **`DecisionTree.ipynb`**: Decision Tree classifier with visualization and explanation of decision rules.
+- **`RandomForest.ipynb`**: Use Random Forest ensemble method to improve accuracy and avoid overfitting.
+- **`SVM.ipynb`**: Classification with Support Vector Machines, includes kernel trick and margin analysis.
+
+👉 All notebooks include:
+- Data preprocessing
+- Feature engineering
+- Model training & evaluation
+- Inline comments and visualizations for better understanding
+
+### 🔷 `regression_model/`
+Focuses on predicting continuous values using regression methods:
+
+- **`LinearRegression.ipynb`**: Simple and multiple linear regression models, includes residual plots and performance metrics.
+- **`PolynomialRegression.ipynb`**: Fit non-linear patterns using polynomial terms.
+- **`RidgeLasso.ipynb`**: Use Ridge and Lasso regularization to reduce overfitting and perform feature selection.
+
+👉 Includes in-depth explanation of evaluation metrics like MAE, MSE, RMSE, and R².
+
+### 🔷 `job_classification/`
+This is a real-world NLP classification project to predict job categories from job descriptions.
+
+- Load and clean a dataset containing job listings.
+- Perform text preprocessing (tokenization, stopword removal, TF-IDF vectorization).
+- Train multiple classification models: Naive Bayes, Logistic Regression, and SVM.
+- Evaluate performance using accuracy, confusion matrix, and classification report.
+
+### 🔷 `datasets/`
+Contains datasets used by other projects:
 
 ## 🛠️ Installation Guide
 
