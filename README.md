@@ -69,9 +69,3 @@ pip install -r requirements.txt
   - Data preprocessing  
   - Model building  
   - Evaluation steps
-
-## 📌 Objectives
-
-- Apply data science knowledge to real-world problems.
-- Improve data processing and model evaluation skills.
-- Build a personal portfolio in the field of Data Science and Machine Learning.
